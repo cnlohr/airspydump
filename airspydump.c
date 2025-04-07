@@ -7,9 +7,9 @@
 #define FREQ 1090000000
 #define SAMPLERATE 6000000
 #define IQsDat "IQs.dat"
-#define LNA_GAIN 12   // Causes spurs above 10dB
-#define MIXER_GAIN 14 // No seeming ill effects, up to 15dB (Though the noise floor is a tad higher)
-#define VGA_GAIN 10   // Generally raises baseline noise above 10dB
+#define LNA_GAIN 8   // Causes spurs above 10dB
+#define MIXER_GAIN 12 // No seeming ill effects, up to 15dB (Though the noise floor is a tad higher)
+#define VGA_GAIN 8   // Generally raises baseline noise above 10dB
 
 int32_t IQs[CAP_SAMPS];
 
